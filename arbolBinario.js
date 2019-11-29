@@ -72,6 +72,7 @@ export default class Arbol {
             }
         }
     }
+    
     agregarIzquierda(nodo, raiz) {
         if (raiz.izquierda === null) {
             raiz.izquierda = nodo;
